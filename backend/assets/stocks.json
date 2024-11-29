@@ -1,0 +1,112 @@
+[
+    {
+        "stockName": "Apple Inc", 
+        "stockSymbol": "AAPL", 
+        "stockPrice": 1200.00, 
+        "stockOpening": 2333.00, 
+        "stockChanges": 34, 
+        "stockClosing": 4333.00, 
+        "stockHighest": 2000.00, 
+        "stockLowest": 0
+    },
+    {
+        "stockName": "Microsoft Corp", 
+        "stockSymbol": "MSFT", 
+        "stockPrice": 2200, 
+        "stockOpening": 2100, 
+        "stockChanges": 50, 
+        "stockClosing": 2150, 
+        "stockHighest": 2300, 
+        "stockLowest": 2000
+    },
+    {
+        "stockName": "Tesla Inc", 
+        "stockSymbol": "TSLA", 
+        "stockPrice": 800, 
+        "stockOpening": 700, 
+        "stockChanges": 25, 
+        "stockClosing": 750, 
+        "stockHighest": 850, 
+        "stockLowest": 680
+    },
+    {
+        "stockName": "Amazon.com Inc", 
+        "stockSymbol": "AMZN", 
+        "stockPrice": 3000, 
+        "stockOpening": 2950, 
+        "stockChanges": 40, 
+        "stockClosing": 2980, 
+        "stockHighest": 3100, 
+        "stockLowest": 2800
+    },
+    {
+        "stockName": "Google LLC", 
+        "stockSymbol": "GOOG", 
+        "stockPrice": 2500, 
+        "stockOpening": 2450, 
+        "stockChanges": 30, 
+        "stockClosing": 2480, 
+        "stockHighest": 2600, 
+        "stockLowest": 2400
+    },
+    {
+        "stockName": "Facebook Inc", 
+        "stockSymbol": "META", 
+        "stockPrice": 350, 
+        "stockOpening": 300, 
+        "stockChanges": 20, 
+        "stockClosing": 310, 
+        "stockHighest": 375, 
+        "stockLowest": 295
+    },
+    {
+        "stockName": "NVIDIA Corp", 
+        "stockSymbol": "NVDA", 
+        "stockPrice": 1500, 
+        "stockOpening": 1400, 
+        "stockChanges": 50, 
+        "stockClosing": 1450,
+         "stockHighest": 1600, "stockLowest": 1380
+    },
+    {
+        "stockName": "Netflix Inc", 
+        "stockSymbol": "NFLX", 
+        "stockPrice": 600, 
+        "stockOpening": 590,
+        "stockChanges": 15, 
+        "stockClosing": 605, 
+        "stockHighest": 630, 
+        "stockLowest": 580
+    },
+    {
+        "stockName": "AMD", 
+        "stockSymbol": "AMD", 
+        "stockPrice": 1200, 
+        "stockOpening": 1150, 
+        "stockChanges": 20, 
+        "stockClosing": 1180, 
+        "stockHighest": 1250, 
+        "stockLowest": 1100
+    },
+    {
+        "stockName": "Spotify Technology", 
+        "stockSymbol": "SPOT", 
+        "stockPrice": 200, 
+        "stockOpening": 195, 
+        "stockChanges": 5, 
+        "stockClosing": 198, 
+        "stockHighest": 210, 
+        "stockLowest": 190
+    },
+
+    {
+        "stockName": "Uber Technologies", 
+        "stockSymbol": "UBER", 
+        "stockPrice": 1000,
+        "stockOpening": 950, 
+        "stockChanges": 25, 
+        "stockClosing": 975, 
+        "stockHighest": 1020, 
+        "stockLowest": 940
+    }
+]
