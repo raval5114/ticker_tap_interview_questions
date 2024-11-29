@@ -6,7 +6,7 @@ import 'package:http/http.dart' as http;
 // Simulate API call to fetch stock data
 Future<Map<String, dynamic>> fetchStockData() async {
   // Simulating a network delay
-  await Future.delayed(Duration(seconds: 1));
+  await Future.delayed(const Duration(seconds: 1));
 
   // Replace this with your actual stock API URL
   final response =
@@ -51,7 +51,7 @@ class _StockDetailsScreenState extends State<StockDetailsScreen> {
     super.initState();
 
     // Start the timer to fetch data every 5 seconds
-    _timer = Timer.periodic(Duration(seconds: 2), (timer) async {
+    _timer = Timer.periodic(const Duration(seconds: 2), (timer) async {
       try {
         // Fetch stock data from API
         Map<String, dynamic> data = await fetchStockData();
@@ -88,13 +88,13 @@ class _StockDetailsScreenState extends State<StockDetailsScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Stock Details')),
+      appBar: AppBar(title: const Text('Stock Details')),
       body: Center(
         child: StreamBuilder<Map<String, dynamic>>(
           stream: _stockDataController.stream,
           builder: (context, snapshot) {
             if (snapshot.connectionState == ConnectionState.waiting) {
-              return CircularProgressIndicator(); // Show loading indicator while waiting for data
+              return const CircularProgressIndicator(); // Show loading indicator while waiting for data
             } else if (snapshot.hasError) {
               return Text(
                   'Error: ${snapshot.error}'); // Show error if the API call fails
@@ -107,7 +107,7 @@ class _StockDetailsScreenState extends State<StockDetailsScreen> {
                 ],
               );
             } else {
-              return Text('No data available');
+              return const Text('No data available');
             }
           },
         ),
